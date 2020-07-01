@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat', 'sans-serif';
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: "Sacramento", cursive;
+    color: rgb(89, 90, 90);
+}
+
+p {
+    font-size: 20px;
+    color: dimgray;
+    text-align: center;
+}
+
+/* introduction */
+.introduction {
+    background-image: url("images/header-bg.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0 30%;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: center;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.half-width h1 {
+    color: rgb(253, 147, 105);
+    font-weight: bolder;
+    font-family: 'Yellowtail', cursive;
+}
+
+.half-width h2 {
+    padding-top: 7%
+}
+
+.half-width p {
+    padding-bottom: 4%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+/* biography area */
+
+.biography {
+    background-image: url("images/biography-bg.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0 30%;
+}
+
+.biography h2 {
+    padding-top: 10%;
+}
+
+.biography p {
+    padding-bottom: 5%;
+}
+
+
+
+/* My latest Work */
+.my-latest-work {
+    text-align: center;
+    background-image: url("images/latest-work-bg.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0 15%;
+}
+
+.latest-work {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1%;
+}
+
+.latest-work img {
+    width: 100%;
+
+}
+
+.my-latest-work h2 {
+    padding-bottom: 5%;
+}
+
+
+
+/* cliant comment */
+.cliant-review {
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 0 22%;
+}
+
+.cliant-comment {
+    width: 40%;
+    margin: 0 30%;
+
+    padding-bottom: 5%;
+}
+
+.cliant-comment h2 {
+    padding-bottom: 7%;
+}
+
+.cliant-comment h6 {
+    padding-bottom: 4%;
+}
+
+#contact-mail {
+    background-color: rgb(255, 5, 88);
+    color: white;
+    width: 40%;
+    margin: 0 25%;
+    padding: 3% 5%;
+    border-radius: 20px;
+
+}
+
+#mail-color {
+    color: white;
+}
+
+/* Bottom containar */
+
+.bottom-container {
+    padding: 40px 0 5px;
+    text-align: center;
+}
+
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px 7px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c7049d;
+}
