@@ -158,19 +158,28 @@ p {
 }
 
 /* Bottom containar */
+.bottom-section {
+    padding: 15px 0 5px;
+}
 
 .bottom-container {
     padding: 40px 0 5px;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#footer p {
+    font-size: 12px;
 }
 
 a {
-    color: #11999e;
+    color: #01eeff;
     font-family: "Montserrat", sans-serif;
     margin: 20px 7px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #c7049d;
+    color: #ff006a;
 }
